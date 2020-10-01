@@ -4,13 +4,15 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import A from './exercises/A/A_app.js';
-import B from './exercises/B/B_app.js'
+import B from './exercises/B/B_app.js';
+import C from './exercises/C/C_app.js'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <A />
     <B />
+    <C />
   </React.StrictMode>,
   document.getElementById('root')
 );
